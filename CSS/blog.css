@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+:root {
+    --brand-color: #98DAF8;
+    --brant-text-color: #132546;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease;
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--brand-color);
+    margin: 16px auto 24px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+} 
+
+/* NAV */
+.button-nav {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, 
+    #41b8da 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,
+    rgba(45, 35, 66, .3) 0 7px 13px -3px,
+    rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #f6fcff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: JetBrains Mono, Robotoflex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-right: 40px;
+  }
+  
+.button-nav:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset,
+  rgba(45, 35, 66, .4) 0 2px 4px,
+  rgba(45, 35, 66, .3) 0 7px 13px -3px,
+  #3c4fe0 0 -3px 0 inset;
+}
+  
+.button-nav:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, 
+  rgba(45, 35, 66, .3) 0 7px 13px -3px, 
+  #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+  
+.button-nav:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.btn {
+  color: beige;
+  font-size: 18px;
+}
+
+.navi {
+  background: var(--brand-color);
+}
+
+  /* HERO */
+h1, h2, h3, h4, h5,h6,
+.h1 .h2 .h3 .h4 .h5 .h6 {
+  color: var(--brant-text-color);
+}
+
+.blog-title {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  
+}
+
+.blog-title:hover {
+  transform: translateY(-4px);
+} 
