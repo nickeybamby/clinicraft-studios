@@ -412,6 +412,11 @@ justify-content: center;
 display: inline;
 }
 
+footer .a {
+  color: white;
+  text-decoration: none;
+  font-family: roboto Flex;
+}
 
 
 
