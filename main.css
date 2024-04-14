@@ -415,7 +415,7 @@ display: inline;
 footer .a {
   color: white;
   text-decoration: none;
-  font-family: roboto Flex;
+  font-family: roboto ;
 }
 
 
@@ -439,6 +439,12 @@ footer .a {
         max-width: 100%;
         height: auto;
         object-fit: contain;
+      }
+
+      footer .a {
+        color: white;
+        text-decoration: none;
+        font-family: roboto;
       }
   }
   
@@ -761,6 +767,12 @@ footer .a {
 .icons .social-icons li{
   display: inline;
   
+}
+
+footer .a {
+  color: white;
+  text-decoration: none;
+  font-family: roboto ;
 }
 
 }
